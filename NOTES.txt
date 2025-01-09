@@ -1,0 +1,4 @@
+1. how to connect different pods in one cluster
+    -   if other pod service not exposed, u can use:
+        1. ClusterIP , manually copy/typing the ip or use env. Example: auth-service, the env name will look like AUTH_SERVICE_SERVICE_HOST
+        2. Auto generate domain. Example: auth-service domain will look like auth-service.default
